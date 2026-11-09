@@ -1,1 +1,2 @@
-const SERVER_URL = "https://dep-dbp0rrkipgvc73da9nsg.onrender.com";
+
+const SERVER_URL = "https://srv-dbp0rr4ipgvc73da9mn0.onrender.com";
