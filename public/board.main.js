@@ -1,6 +1,7 @@
 import { io } from "https://cdn.jsdelivr.net/npm/socket.io-client@4/dist/socket.io.esm.min.js";
 
-const SERVER_URL = "https://srv‑dbp0rr4ipgvc73da9mn0.onrender.com";
+const SERVER_URL = "https://srv-dbp7nme1egvs73bai5rg.onrender.com";
+
 const appDiv = document.getElementById("app");
 
 appDiv.innerHTML = `<h2>Menghubungkan ke server Ludo…</h2>`;
