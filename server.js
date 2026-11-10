@@ -5,7 +5,7 @@ const {Server}=require('socket.io');
 const {legalMoves,applyMove,snapshot}=require('./ludo-rules');
 const app=express(),server=http.createServer(app);
 const allowed=process.env.ALLOWED_ORIGIN||'*';
-const io=new Server(server,{cors:{origin:allowed==='*'?'*':allowed.split(',').map(x=>x.trim()),methods:['GET','POST']}});
+const io=new Server(server,{cors:{origin:"*"}});
 app.use(express.static('public'));
 app.get('/health',(req,res)=>res.json({ok:true,service:'Ludo Online International',rooms:rooms.size,waiting:queue.length}));
 const rooms=new Map(),queue=[],COLORS=['red','blue','green','yellow'];
