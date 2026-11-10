@@ -1,6 +1,7 @@
 import { io } from "https://cdn.jsdelivr.net/npm/socket.io-client@4/dist/socket.io.esm.min.js";
 
-const SERVER_URL = "https://srv-dbp7nme1egvs73bai5rg.onrender.com";
+const SERVER_URL = "https://srv-dbp8hqgm7kps73a607sg.onrender.com";
+
 
 const appDiv = document.getElementById("app");
 
